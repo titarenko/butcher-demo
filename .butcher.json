@@ -1,6 +1,6 @@
 {
-  "build": "echo 'built!'",
-  "stage": "echo 'staged!'",
-  "release": "echo 'released!'",
-  "remove": "echo 'removed!'"
+  "build": ["echo", "built!"],
+  "stage": ["echo", "staged!"],
+  "release": ["echo", "released!"],
+  "remove": ["echo", "removed!"]
 }
